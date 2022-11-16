@@ -3,12 +3,10 @@ package ru.job4j.calculator;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class FitTest {
 
     @Test
-    public void whenManWeight190Then103499() {
+    public void whenManWeight190Then103dot499() {
         short in = 190;
         double expected = 103.499;
         double out = Fit.manWeight(in);
