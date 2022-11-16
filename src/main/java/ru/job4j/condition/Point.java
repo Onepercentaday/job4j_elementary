@@ -6,10 +6,10 @@ public class Point {
     }
 
     public static void main(String[] args) {
-        int x1 = 4;
-        int y1 = 5;
-        int x2 = 6;
-        int y2 = 9;
+        int x1 = 12;
+        int y1 = 32;
+        int x2 = 11;
+        int y2 = 15;
         double result = Point.distance(x1, y1, x2, y2);
         System.out.println("result" + " " + "(" + x1 + "," + " " + y1 + ")" + " " + "to" + " " + "(" + x2 + "," + " " +  y2 + ")" + " " + result);
     }
