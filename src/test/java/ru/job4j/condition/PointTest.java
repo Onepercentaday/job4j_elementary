@@ -30,11 +30,11 @@ public class PointTest {
 
     @Test
     public void when1232To1115Then17dot03() {
-        double expected = 6.40;
-        int x1 = 5;
-        int y1 = 7;
-        int x2 = 9;
-        int y2 = 12;
+        double expected = 17.03;
+        int x1 = 12;
+        int y1 = 32;
+        int x2 = 11;
+        int y2 = 15;
         double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
     }
